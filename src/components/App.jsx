@@ -69,7 +69,7 @@ export class Feedback extends Component {
           <h2>Statistics</h2>
           {this.state.total === 0 ? (
             <Notification variant="notification">
-              There is no feedback
+              There is no feedback.
             </Notification>
           ) : (
             <Statistics
